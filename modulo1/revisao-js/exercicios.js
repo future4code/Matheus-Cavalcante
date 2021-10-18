@@ -10,27 +10,32 @@ function retornaTamanhoArray(array) {
 
 // EXERCÍCIO 02
 function retornaArrayInvertido(array) {
-  
+    resultado = []
+    for(let i = array.length-1; i >= 0; i--){
+        resultado.push(array[i])
+    }
+      return resultado
 }
 
 // EXERCÍCIO 03
 function retornaArrayOrdenado(array) {
-  
+
 }
 
 // EXERCÍCIO 04
 function retornaNumerosPares(array) {
-  
+
 }
 
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
- 
+
 }
+ 
 
 // EXERCÍCIO 06
 function retornaMaiorNumero(array) {
-  
+
 }
 
 // EXERCÍCIO 07
@@ -55,7 +60,7 @@ function retornaSegundoMaiorESegundoMenor(array) {
 
 // EXERCÍCIO 11
 function retornaChamadaDeFilme(filme) {
-   
+
 }
 
 // EXERCÍCIO 12

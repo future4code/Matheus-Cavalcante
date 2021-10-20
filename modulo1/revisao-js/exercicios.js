@@ -47,18 +47,45 @@ function retornaNumerosParesElevadosADois(array) {
 
 // EXERCÍCIO 06
 function retornaMaiorNumero(array) {
-
+    let maior
+    for(i=0; i <= array.length; i++){
+        if(array[i] > array[i+1]){
+            maior = array[i]
+            return maior
+        }
+    }
 }
 
 // EXERCÍCIO 07
 function retornaObjetoEntreDoisNumeros(num1, num2) {
+    let maiorNumero
+    let maiorDivisivelPorMenor
+    let cache
+    let diferenca
 
+    if(num1 > num2){
+        maiorNumero = num1
+        cache = num2
+    } else{
+        maiorNumero = num2
+        cache = num1
+    }
+
+    maiorDivisivelPorMenor = maiorNumero % cache === 0 
+
+    diferenca = maiorNumero - cache
 }
 
 // EXERCÍCIO 08
 function retornaNPrimeirosPares(n) {
-   
-}
+    let array = [] 
+    for(let i = 0; i < n * 2; i++)
+    if(i % 2 == 0){
+     array.push(i)
+    }
+    return array
+ }
+
 
 // EXERCÍCIO 09
 function classificaTriangulo(ladoA, ladoB, ladoC) {
@@ -93,7 +120,7 @@ function retornaPessoaAnonimizada(pessoa) {
 
 // EXERCÍCIO 13A
 function retornaPessoasAutorizadas(pessoas) {
-   
+   const pessoasAutorizadas 
 }
 
 // EXERCÍCIO 13B

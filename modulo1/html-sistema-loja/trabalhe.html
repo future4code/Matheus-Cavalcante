@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Controle de Estoque</title>
+    <title>Adicionar Produto</title>
 
     <style>
         .rodape {
@@ -16,6 +16,7 @@
             padding: 2px;
         }
     </style>
+
 
 </head>
 
@@ -32,53 +33,33 @@
 
 
 <body>
+    
 
-    <h2>Controle de Estoque</h2>
-
-    <table>
-        <tr>
-            <th>Foto</th>
-            <th>Descrição</th>
-            <th>Preço (R$)</th>
-            <th>Quantidade disponível</th>
-        </tr>
-
-        <tr>
-            <td><img src="img/15x10.png" alt="Caderno Médio com brochura reforçada com couro" height='150' width='150'/></td>
-            <td> Caderno Artesanal 15x10 </td>
-            <td> 20,00 </td>
-            <td> 10 </td>
-        </tr>
-
-        <tr>
-            <td><img src="img/30x20.png" alt="Caderno grande com brochuras expostas" height='150' width='150'/></td>
-            <td> Caderno Artesanal 30x20 </td>
-            <td> 50,00 </td>
-            <td> 7 </td>
-        </tr>
-
-        <tr>
-            <td><img src="img/14x7.png" alt="Caderno pequeno com brochura em formato de dobra" height='150' width='150'/></td>
-            <td> Caderno Artesanal 14x7 </td>
-            <td> 15,00 </td>
-            <td> 4 </td>
-        </tr>
-
-        <tr>
-            <td><img src="img/30x15.png" alt="Caderno grande com um desenho abstrato de coração" height='150' width='150'/></td>
-            <td> Caderno Arteanal Artístico 30x15 </td>
-            <td> 60,00 </td>
-            <td> 12 </td>
-        </tr>
+    
+    <h2>Nos ajude a revolucionar o mercado de cadernos feitos a mão!</h2>
+    <form action="">
+        <div>
+            <label for="nome">Seu nome: </label>
+            <input type="text" id="nome" name="nome">
+        </div>
         
-        <tr>
-            <td><img src="img/agenda.png" alt="Agenda florida, possui as datas impressas" height='150' width='150'/></td>
-            <td> Agenda Artesanal </td>
-            <td> 25 </td>
-            <td> 2 </td>
-        </tr>
+        <div>
+            <label for="telefone">Seu telefone: </label>
+            <input type="number" id="telefone" name="telefone">
+        </div>
+        
+        <div>
+            <label for="e-mail">E-mail: </label>
+            <input type="text" id="e-mail" name="email">
+        </div>
 
-    </table>
+        <div class="form-add">
+            <button type="submit">Inscrever-se</button>
+        </div>
+
+    </form>
+
+    
 
 </body>
 
@@ -107,7 +88,6 @@
             <td>    </td>
             <td><a href="trabalhe.html">Trabalhe Conosco</a></td>
         </tr>
-
     </table>
 </div>
 </footer>

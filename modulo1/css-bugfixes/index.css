@@ -29,16 +29,19 @@ img {
     width: 100px;
 }
 
+/*
 div>p:first-child {
     display: inline;
 }
 
-/*
+*/
+
+
 div img {
     height: 15px;
     width: 25px;
 }
-*/
+
 
 .botao-amarelo {
     background-color: #ffaf43;
@@ -76,8 +79,10 @@ div img {
     padding: 30px 0px;
 }
 
+
 #container-de-descricao>ol {
     padding: 15px 0px;
+    
 }
 
 
@@ -97,6 +102,7 @@ div img {
   *  ESTILOS COMPRAR 
   *
   **/
+
 
 div:nth-child(2),
 div:last-child {
